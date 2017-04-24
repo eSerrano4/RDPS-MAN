@@ -15,6 +15,7 @@
 		071B82511EAD7FDE00C8FBB1 /* RDPS_MANTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B82501EAD7FDE00C8FBB1 /* RDPS_MANTests.swift */; };
 		071B825C1EAD7FDE00C8FBB1 /* RDPS_MANUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B825B1EAD7FDE00C8FBB1 /* RDPS_MANUITests.swift */; };
 		071B826A1EAD845100C8FBB1 /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B82691EAD845100C8FBB1 /* register.swift */; };
+		071B826C1EAE56CE00C8FBB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B826B1EAE56CE00C8FBB1 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		071B825B1EAD7FDE00C8FBB1 /* RDPS_MANUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDPS_MANUITests.swift; sourceTree = "<group>"; };
 		071B825D1EAD7FDE00C8FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		071B82691EAD845100C8FBB1 /* register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
+		071B826B1EAE56CE00C8FBB1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				071B82441EAD7FDD00C8FBB1 /* LaunchScreen.storyboard */,
 				071B82471EAD7FDD00C8FBB1 /* Info.plist */,
 				071B82691EAD845100C8FBB1 /* register.swift */,
+				071B826B1EAE56CE00C8FBB1 /* LoginViewController.swift */,
 			);
 			path = "RDPS MAN";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071B826C1EAE56CE00C8FBB1 /* LoginViewController.swift in Sources */,
 				071B823E1EAD7FDD00C8FBB1 /* ViewController.swift in Sources */,
 				071B823C1EAD7FDD00C8FBB1 /* AppDelegate.swift in Sources */,
 				071B826A1EAD845100C8FBB1 /* register.swift in Sources */,

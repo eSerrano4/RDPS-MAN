@@ -43,6 +43,13 @@ class register: UIViewController {
             alertMessage(userMessage: "Passwords dont match")
             return;
         }
+        
+        //Store user Data to app memory
+        UserDefaults.standard.set(userEmail, forKey: "userEmail");
+        UserDefaults.standard.set(userPassword, forKey: "userPassword");
+        UserDefaults.standard.synchronize();
+        
+        //Store to database
         let request = NSMutableURLRequest(url: NSURL (string: "http://localhost:8888/register/storeValues.php")! as URL)
         request.httpMethod = "POST"
         
