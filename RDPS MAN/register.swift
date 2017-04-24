@@ -26,6 +26,61 @@ class register: UIViewController {
         
     }
     
+    @IBAction func registerButtonTapped(_ sender: Any) {
+    
+        let userEmail = userEmailTextField.text;
+        let userPassword = userPasswordTextField.text;
+        let userRepeatPassword = repeatPasswordTextField.text;
+        
+        //check for empty text fields
+        if ((userEmail?.isEmpty)! || (userPassword?.isEmpty)! || (userRepeatPassword?.isEmpty)!)
+        {
+            alertMessage(userMessage: "all fields are required");
+            return;
+        }
+        if ( userPassword != userRepeatPassword)
+        {
+            alertMessage(userMessage: "Passwords dont match")
+            return;
+        }
+        let request = NSMutableURLRequest(url: NSURL (string: "http://localhost:8888/register/storeValues.php")! as URL)
+        request.httpMethod = "POST"
+        
+        let postString = "a=\(String(describing: userEmailTextField.text!))&b=\(String(describing: userPasswordTextField.text!))"
+        
+        request.httpBody = postString.data(using: String.Encoding.utf8)
+        
+        let task = URLSession.shared.dataTask(with: request as URLRequest){
+            data, response, error in
+            
+            if error != nil {
+                print("error=\(String(describing: error))")
+                return
+            }
+            print("response = \(String(describing: response))")
+            
+            let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
+            print("responseString =\(String(describing: responseString))")
+            
+        }
+        task.resume()
+        
+        
+        
+        //pop-Up
+        let alertController = UIAlertController(title: "Candidate", message: "Successfully Added", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title:"ok", style: UIAlertActionStyle.default, handler: nil))
+        
+        self.present(alertController, animated:true, completion:nil)
+        
+        userEmailTextField.text = "";
+        userPasswordTextField.text = "";
+
+    
+    
+    
+    
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
