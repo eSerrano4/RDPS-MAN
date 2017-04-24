@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071B823C1EAD7FDD00C8FBB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B823B1EAD7FDD00C8FBB1 /* AppDelegate.swift */; };
+		071B823E1EAD7FDD00C8FBB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B823D1EAD7FDD00C8FBB1 /* ViewController.swift */; };
+		071B82411EAD7FDD00C8FBB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071B823F1EAD7FDD00C8FBB1 /* Main.storyboard */; };
+		071B82431EAD7FDD00C8FBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071B82421EAD7FDD00C8FBB1 /* Assets.xcassets */; };
+		071B82461EAD7FDD00C8FBB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071B82441EAD7FDD00C8FBB1 /* LaunchScreen.storyboard */; };
+		071B82511EAD7FDE00C8FBB1 /* RDPS_MANTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B82501EAD7FDE00C8FBB1 /* RDPS_MANTests.swift */; };
+		071B825C1EAD7FDE00C8FBB1 /* RDPS_MANUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B825B1EAD7FDE00C8FBB1 /* RDPS_MANUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		071B824D1EAD7FDE00C8FBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071B82301EAD7FDD00C8FBB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071B82371EAD7FDD00C8FBB1;
+			remoteInfo = "RDPS MAN";
+		};
+		071B82581EAD7FDE00C8FBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071B82301EAD7FDD00C8FBB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071B82371EAD7FDD00C8FBB1;
+			remoteInfo = "RDPS MAN";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071B82381EAD7FDD00C8FBB1 /* RDPS MAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RDPS MAN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		071B823B1EAD7FDD00C8FBB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		071B823D1EAD7FDD00C8FBB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		071B82401EAD7FDD00C8FBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		071B82421EAD7FDD00C8FBB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		071B82451EAD7FDD00C8FBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		071B82471EAD7FDD00C8FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071B824C1EAD7FDE00C8FBB1 /* RDPS MANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RDPS MANTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		071B82501EAD7FDE00C8FBB1 /* RDPS_MANTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDPS_MANTests.swift; sourceTree = "<group>"; };
+		071B82521EAD7FDE00C8FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071B82571EAD7FDE00C8FBB1 /* RDPS MANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RDPS MANUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		071B825B1EAD7FDE00C8FBB1 /* RDPS_MANUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDPS_MANUITests.swift; sourceTree = "<group>"; };
+		071B825D1EAD7FDE00C8FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071B82351EAD7FDD00C8FBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B82491EAD7FDE00C8FBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B82541EAD7FDE00C8FBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071B822F1EAD7FDD00C8FBB1 = {
+			isa = PBXGroup;
+			children = (
+				071B823A1EAD7FDD00C8FBB1 /* RDPS MAN */,
+				071B824F1EAD7FDE00C8FBB1 /* RDPS MANTests */,
+				071B825A1EAD7FDE00C8FBB1 /* RDPS MANUITests */,
+				071B82391EAD7FDD00C8FBB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		071B82391EAD7FDD00C8FBB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071B82381EAD7FDD00C8FBB1 /* RDPS MAN.app */,
+				071B824C1EAD7FDE00C8FBB1 /* RDPS MANTests.xctest */,
+				071B82571EAD7FDE00C8FBB1 /* RDPS MANUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071B823A1EAD7FDD00C8FBB1 /* RDPS MAN */ = {
+			isa = PBXGroup;
+			children = (
+				071B823B1EAD7FDD00C8FBB1 /* AppDelegate.swift */,
+				071B823D1EAD7FDD00C8FBB1 /* ViewController.swift */,
+				071B823F1EAD7FDD00C8FBB1 /* Main.storyboard */,
+				071B82421EAD7FDD00C8FBB1 /* Assets.xcassets */,
+				071B82441EAD7FDD00C8FBB1 /* LaunchScreen.storyboard */,
+				071B82471EAD7FDD00C8FBB1 /* Info.plist */,
+			);
+			path = "RDPS MAN";
+			sourceTree = "<group>";
+		};
+		071B824F1EAD7FDE00C8FBB1 /* RDPS MANTests */ = {
+			isa = PBXGroup;
+			children = (
+				071B82501EAD7FDE00C8FBB1 /* RDPS_MANTests.swift */,
+				071B82521EAD7FDE00C8FBB1 /* Info.plist */,
+			);
+			path = "RDPS MANTests";
+			sourceTree = "<group>";
+		};
+		071B825A1EAD7FDE00C8FBB1 /* RDPS MANUITests */ = {
+			isa = PBXGroup;
+			children = (
+				071B825B1EAD7FDE00C8FBB1 /* RDPS_MANUITests.swift */,
+				071B825D1EAD7FDE00C8FBB1 /* Info.plist */,
+			);
+			path = "RDPS MANUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071B82371EAD7FDD00C8FBB1 /* RDPS MAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071B82601EAD7FDE00C8FBB1 /* Build configuration list for PBXNativeTarget "RDPS MAN" */;
+			buildPhases = (
+				071B82341EAD7FDD00C8FBB1 /* Sources */,
+				071B82351EAD7FDD00C8FBB1 /* Frameworks */,
+				071B82361EAD7FDD00C8FBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RDPS MAN";
+			productName = "RDPS MAN";
+			productReference = 071B82381EAD7FDD00C8FBB1 /* RDPS MAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		071B824B1EAD7FDE00C8FBB1 /* RDPS MANTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071B82631EAD7FDE00C8FBB1 /* Build configuration list for PBXNativeTarget "RDPS MANTests" */;
+			buildPhases = (
+				071B82481EAD7FDE00C8FBB1 /* Sources */,
+				071B82491EAD7FDE00C8FBB1 /* Frameworks */,
+				071B824A1EAD7FDE00C8FBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071B824E1EAD7FDE00C8FBB1 /* PBXTargetDependency */,
+			);
+			name = "RDPS MANTests";
+			productName = "RDPS MANTests";
+			productReference = 071B824C1EAD7FDE00C8FBB1 /* RDPS MANTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		071B82561EAD7FDE00C8FBB1 /* RDPS MANUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071B82661EAD7FDE00C8FBB1 /* Build configuration list for PBXNativeTarget "RDPS MANUITests" */;
+			buildPhases = (
+				071B82531EAD7FDE00C8FBB1 /* Sources */,
+				071B82541EAD7FDE00C8FBB1 /* Frameworks */,
+				071B82551EAD7FDE00C8FBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071B82591EAD7FDE00C8FBB1 /* PBXTargetDependency */,
+			);
+			name = "RDPS MANUITests";
+			productName = "RDPS MANUITests";
+			productReference = 071B82571EAD7FDE00C8FBB1 /* RDPS MANUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071B82301EAD7FDD00C8FBB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Eric;
+				TargetAttributes = {
+					071B82371EAD7FDD00C8FBB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LC4NDD4WTP;
+						ProvisioningStyle = Automatic;
+					};
+					071B824B1EAD7FDE00C8FBB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LC4NDD4WTP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 071B82371EAD7FDD00C8FBB1;
+					};
+					071B82561EAD7FDE00C8FBB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LC4NDD4WTP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 071B82371EAD7FDD00C8FBB1;
+					};
+				};
+			};
+			buildConfigurationList = 071B82331EAD7FDD00C8FBB1 /* Build configuration list for PBXProject "RDPS MAN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 071B822F1EAD7FDD00C8FBB1;
+			productRefGroup = 071B82391EAD7FDD00C8FBB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071B82371EAD7FDD00C8FBB1 /* RDPS MAN */,
+				071B824B1EAD7FDE00C8FBB1 /* RDPS MANTests */,
+				071B82561EAD7FDE00C8FBB1 /* RDPS MANUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071B82361EAD7FDD00C8FBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B82461EAD7FDD00C8FBB1 /* LaunchScreen.storyboard in Resources */,
+				071B82431EAD7FDD00C8FBB1 /* Assets.xcassets in Resources */,
+				071B82411EAD7FDD00C8FBB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B824A1EAD7FDE00C8FBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B82551EAD7FDE00C8FBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071B82341EAD7FDD00C8FBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B823E1EAD7FDD00C8FBB1 /* ViewController.swift in Sources */,
+				071B823C1EAD7FDD00C8FBB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B82481EAD7FDE00C8FBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B82511EAD7FDE00C8FBB1 /* RDPS_MANTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B82531EAD7FDE00C8FBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B825C1EAD7FDE00C8FBB1 /* RDPS_MANUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		071B824E1EAD7FDE00C8FBB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071B82371EAD7FDD00C8FBB1 /* RDPS MAN */;
+			targetProxy = 071B824D1EAD7FDE00C8FBB1 /* PBXContainerItemProxy */;
+		};
+		071B82591EAD7FDE00C8FBB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071B82371EAD7FDD00C8FBB1 /* RDPS MAN */;
+			targetProxy = 071B82581EAD7FDE00C8FBB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		071B823F1EAD7FDD00C8FBB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071B82401EAD7FDD00C8FBB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		071B82441EAD7FDD00C8FBB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071B82451EAD7FDD00C8FBB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071B825E1EAD7FDE00C8FBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		071B825F1EAD7FDE00C8FBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071B82611EAD7FDE00C8FBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LC4NDD4WTP;
+				INFOPLIST_FILE = "RDPS MAN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.RDPS-MAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		071B82621EAD7FDE00C8FBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LC4NDD4WTP;
+				INFOPLIST_FILE = "RDPS MAN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.RDPS-MAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		071B82641EAD7FDE00C8FBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LC4NDD4WTP;
+				INFOPLIST_FILE = "RDPS MANTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.RDPS-MANTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDPS MAN.app/RDPS MAN";
+			};
+			name = Debug;
+		};
+		071B82651EAD7FDE00C8FBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LC4NDD4WTP;
+				INFOPLIST_FILE = "RDPS MANTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.RDPS-MANTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDPS MAN.app/RDPS MAN";
+			};
+			name = Release;
+		};
+		071B82671EAD7FDE00C8FBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LC4NDD4WTP;
+				INFOPLIST_FILE = "RDPS MANUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.RDPS-MANUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "RDPS MAN";
+			};
+			name = Debug;
+		};
+		071B82681EAD7FDE00C8FBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LC4NDD4WTP;
+				INFOPLIST_FILE = "RDPS MANUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.RDPS-MANUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "RDPS MAN";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071B82331EAD7FDD00C8FBB1 /* Build configuration list for PBXProject "RDPS MAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B825E1EAD7FDE00C8FBB1 /* Debug */,
+				071B825F1EAD7FDE00C8FBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071B82601EAD7FDE00C8FBB1 /* Build configuration list for PBXNativeTarget "RDPS MAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B82611EAD7FDE00C8FBB1 /* Debug */,
+				071B82621EAD7FDE00C8FBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		071B82631EAD7FDE00C8FBB1 /* Build configuration list for PBXNativeTarget "RDPS MANTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B82641EAD7FDE00C8FBB1 /* Debug */,
+				071B82651EAD7FDE00C8FBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		071B82661EAD7FDE00C8FBB1 /* Build configuration list for PBXNativeTarget "RDPS MANUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B82671EAD7FDE00C8FBB1 /* Debug */,
+				071B82681EAD7FDE00C8FBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071B82301EAD7FDD00C8FBB1 /* Project object */;
+}
