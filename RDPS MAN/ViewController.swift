@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    override func viewDidAppear(_ animated: Bool) {
+   /* override func viewDidAppear(_ animated: Bool) {
         let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isuserLoggedin")
         
         if(!isUserLoggedIn){
@@ -28,6 +28,6 @@ class ViewController: UIViewController {
         
             self.performSegue(withIdentifier: "loginView", sender: self)
         }
-    }
+    }*/
 }
 
