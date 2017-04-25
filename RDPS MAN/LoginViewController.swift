@@ -23,12 +23,35 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func resetField(){
+        userEmailTextField.text = ""
+        userPasswordTextField.text = ""
+    }
+    
+    //Alert Messages
+    func alertMessage(userMessage:String){
+        
+        let Alert = UIAlertController(title:"Error", message: userMessage, preferredStyle: UIAlertControllerStyle.alert);
+        let ActionOK = UIAlertAction(title: "ok", style: UIAlertActionStyle.default, handler:nil);
+        
+        Alert.addAction(ActionOK);
+        
+        self.present(Alert, animated:true, completion: nil);
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     @IBAction func loginButtonTapped(_ sender: Any) {
+        
+        
+        
+        
+        
     
         if defaults.object(forKey: "usernames") != nil{
             registeredUsers = defaults.object(forKey: "usernames") as! [String]
@@ -39,7 +62,11 @@ class LoginViewController: UIViewController {
                 break
             }
         }
-        
+            resetField();
+            let incorrectAlert = UIAlertController(title: "Error", message: "your user name or password is incorrect.", preferredStyle: .alert)
+            incorrectAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(incorrectAlert, animated: true, completion: nil)
+    }
         
         //performSegue(withIdentifier: "loggedIn", sender: self)
         
@@ -64,15 +91,7 @@ class LoginViewController: UIViewController {
     }*/
         
         
-        
-   
-        
-        
-        
-        
-        
-        
-    }
+
 
     /*
     // MARK: - Navigation
