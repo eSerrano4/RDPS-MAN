@@ -1,5 +1,5 @@
 //
-//  AdminPageViewController.swift
+//  TableViewController.swift
 //  RDPS MAN
 //
 //  Created by Eric on 4/25/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AdminPageViewController: UIViewController {
+class TableViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +21,6 @@ class AdminPageViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func logout(_ sender: Any) {
-    dismiss(animated: true, completion: nil)
-    }
 
     /*
     // MARK: - Navigation
