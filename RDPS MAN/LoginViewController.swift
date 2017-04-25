@@ -9,6 +9,10 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    let defaults = UserDefaults.standard
+    var registeredUsers = [String]()
+    var passwordArr = [String]()
 
     @IBOutlet weak var userEmailTextField: UITextField!
     @IBOutlet weak var userPasswordTextField: UITextField!
@@ -26,7 +30,20 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonTapped(_ sender: Any) {
     
-        let userEmail = userEmailTextField.text;
+        if defaults.object(forKey: "usernames") != nil{
+            registeredUsers = defaults.object(forKey: "usernames") as! [String]
+            passwordArr = defaults.object(forKey: "passwords") as! [String]
+            for x in 0...(registeredUsers.count - 1){
+            if (userEmailTextField.text! == registeredUsers[x]) && (userPasswordTextField.text! == passwordArr[x]){
+                performSegue(withIdentifier: "loggedIn", sender: self)
+                break
+            }
+        }
+        
+        
+        //performSegue(withIdentifier: "loggedIn", sender: self)
+        
+        /*let userEmail = userEmailTextField.text;
         let userPassword = userPasswordTextField.text;
         
         let userEmailStored = UserDefaults.standard.string(forKey: "userEmail")
@@ -44,7 +61,7 @@ class LoginViewController: UIViewController {
             performSegue(withIdentifier:"loggedIn", sender: self)
             
         }
-    }
+    }*/
         
         
         
@@ -67,4 +84,6 @@ class LoginViewController: UIViewController {
     }
     */
 
+
+}
 }

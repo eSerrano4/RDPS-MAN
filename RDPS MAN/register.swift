@@ -12,6 +12,9 @@ class register: UIViewController {
     @IBOutlet weak var userEmailTextField: UITextField!
     @IBOutlet weak var userPasswordTextField: UITextField!
     @IBOutlet weak var repeatPasswordTextField: UITextField!
+    let defaults = UserDefaults.standard
+    var registeredUsers = [String]()
+    var passwordArr = [String]()
     
     //Alert Messages
     func alertMessage(userMessage:String){
@@ -27,6 +30,18 @@ class register: UIViewController {
     }
     
     @IBAction func registerButtonTapped(_ sender: Any) {
+        
+        if defaults.object(forKey: "usernames") != nil{
+            registeredUsers = defaults.array(forKey: "usernames") as! [String]
+            passwordArr = defaults.array(forKey: "passwords") as! [String]
+        }
+        
+        //create a new account 
+        registeredUsers.insert(userEmailTextField.text!, at: registeredUsers.count)
+        passwordArr.insert(userPasswordTextField.text!, at: passwordArr.count)
+        defaults.set(registeredUsers, forKey: "usernames")
+        defaults.set(passwordArr, forKey: "passwords")
+        dismiss(animated:true, completion:nil)
     
         let userEmail = userEmailTextField.text;
         let userPassword = userPasswordTextField.text;
@@ -45,9 +60,9 @@ class register: UIViewController {
         }
         
         //Store user Data to app memory
-        UserDefaults.standard.set(userEmail, forKey: "userEmail");
-        UserDefaults.standard.set(userPassword, forKey: "userPassword");
-        UserDefaults.standard.synchronize();
+        //UserDefaults.standard.set(userEmail, forKey: "userEmail");
+        //UserDefaults.standard.set(userPassword, forKey: "userPassword");
+        //UserDefaults.standard.synchronize();
         
         //Store to database
         let request = NSMutableURLRequest(url: NSURL (string: "http://localhost:8888/register/storeValues.php")! as URL)

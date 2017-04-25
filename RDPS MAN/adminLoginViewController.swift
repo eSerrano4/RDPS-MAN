@@ -10,26 +10,25 @@ import UIKit
 
 class adminLoginViewController: UIViewController {
 
-    @IBOutlet weak var adminUserName: UITextField!
-    @IBOutlet weak var adminPassword: UITextField!
+    @IBOutlet var AdminName: UITextField!
+
+    @IBOutlet var AdminPassword: UITextField!
     
-    
-    @IBAction func adminLoginButtonPressed(_ sender: AnyObject) {
-        let admin = "Serrano";
-        let adminP = "956747";
+
+    @IBAction func LoginButtonClicked(_ sender: Any) {
         
-    if adminUserName.text == admin && adminPassword.text == adminP
-    {
-        performSegue(withIdentifier:"adminPage", sender: self)
+        //let admin = "Serrano";
+        //let adminP = "956747";
+        
+        if AdminName.text == "Serrano"
+        {
+            if AdminPassword.text == "956747"
+            {
+                performSegue(withIdentifier:"adminPage", sender: self)
+            }
+        }
         
     }
-    
-    
-    
-    
-    
-    }
-    
     
     
     override func viewDidLoad() {
