@@ -20,6 +20,8 @@
 		071B82701EAE8CAC00C8FBB1 /* adminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B826F1EAE8CAC00C8FBB1 /* adminLoginViewController.swift */; };
 		071B82741EAFBD6900C8FBB1 /* storeValues.php in Resources */ = {isa = PBXBuildFile; fileRef = 071B82731EAFBD6900C8FBB1 /* storeValues.php */; };
 		071B82761EAFBD9400C8FBB1 /* TicketRequest.php in Resources */ = {isa = PBXBuildFile; fileRef = 071B82751EAFBD9400C8FBB1 /* TicketRequest.php */; };
+		071B82781EAFBED400C8FBB1 /* userLogin.php in Resources */ = {isa = PBXBuildFile; fileRef = 071B82771EAFBED400C8FBB1 /* userLogin.php */; };
+		071B827A1EAFBEFB00C8FBB1 /* userRegister.php in Resources */ = {isa = PBXBuildFile; fileRef = 071B82791EAFBEFB00C8FBB1 /* userRegister.php */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		071B826F1EAE8CAC00C8FBB1 /* adminLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adminLoginViewController.swift; sourceTree = "<group>"; };
 		071B82731EAFBD6900C8FBB1 /* storeValues.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = storeValues.php; sourceTree = "<group>"; };
 		071B82751EAFBD9400C8FBB1 /* TicketRequest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = TicketRequest.php; sourceTree = "<group>"; };
+		071B82771EAFBED400C8FBB1 /* userLogin.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = userLogin.php; sourceTree = "<group>"; };
+		071B82791EAFBEFB00C8FBB1 /* userRegister.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = userRegister.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				071B826F1EAE8CAC00C8FBB1 /* adminLoginViewController.swift */,
 				071B82731EAFBD6900C8FBB1 /* storeValues.php */,
 				071B82751EAFBD9400C8FBB1 /* TicketRequest.php */,
+				071B82771EAFBED400C8FBB1 /* userLogin.php */,
+				071B82791EAFBEFB00C8FBB1 /* userRegister.php */,
 			);
 			path = "RDPS MAN";
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 				071B82461EAD7FDD00C8FBB1 /* LaunchScreen.storyboard in Resources */,
 				071B82431EAD7FDD00C8FBB1 /* Assets.xcassets in Resources */,
 				071B82761EAFBD9400C8FBB1 /* TicketRequest.php in Resources */,
+				071B82781EAFBED400C8FBB1 /* userLogin.php in Resources */,
 				071B82741EAFBD6900C8FBB1 /* storeValues.php in Resources */,
 				071B82411EAD7FDD00C8FBB1 /* Main.storyboard in Resources */,
+				071B827A1EAFBEFB00C8FBB1 /* userRegister.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
