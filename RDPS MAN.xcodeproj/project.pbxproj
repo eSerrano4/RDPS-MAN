@@ -23,7 +23,8 @@
 		071B82781EAFBED400C8FBB1 /* userLogin.php in Resources */ = {isa = PBXBuildFile; fileRef = 071B82771EAFBED400C8FBB1 /* userLogin.php */; };
 		071B827A1EAFBEFB00C8FBB1 /* userRegister.php in Resources */ = {isa = PBXBuildFile; fileRef = 071B82791EAFBEFB00C8FBB1 /* userRegister.php */; };
 		071B827C1EAFC4E300C8FBB1 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B827B1EAFC4E300C8FBB1 /* ContainerViewController.swift */; };
-		071B82821EB006D200C8FBB1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B82811EB006D200C8FBB1 /* TableViewController.swift */; };
+		071B82861EB18ED000C8FBB1 /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B82851EB18ED000C8FBB1 /* NewTableViewController.swift */; };
+		071B828C1EB2558900C8FBB1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B828B1EB2558900C8FBB1 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +67,8 @@
 		071B82771EAFBED400C8FBB1 /* userLogin.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = userLogin.php; sourceTree = "<group>"; };
 		071B82791EAFBEFB00C8FBB1 /* userRegister.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = userRegister.php; sourceTree = "<group>"; };
 		071B827B1EAFC4E300C8FBB1 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
-		071B82811EB006D200C8FBB1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		071B82851EB18ED000C8FBB1 /* NewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
+		071B828B1EB2558900C8FBB1 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +134,8 @@
 				071B82771EAFBED400C8FBB1 /* userLogin.php */,
 				071B82791EAFBEFB00C8FBB1 /* userRegister.php */,
 				071B827B1EAFC4E300C8FBB1 /* ContainerViewController.swift */,
-				071B82811EB006D200C8FBB1 /* TableViewController.swift */,
+				071B82851EB18ED000C8FBB1 /* NewTableViewController.swift */,
+				071B828B1EB2558900C8FBB1 /* CustomCell.swift */,
 			);
 			path = "RDPS MAN";
 			sourceTree = "<group>";
@@ -296,10 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071B82861EB18ED000C8FBB1 /* NewTableViewController.swift in Sources */,
 				071B826E1EAE7E6F00C8FBB1 /* StaffViewController.swift in Sources */,
 				071B826C1EAE56CE00C8FBB1 /* LoginViewController.swift in Sources */,
 				071B827C1EAFC4E300C8FBB1 /* ContainerViewController.swift in Sources */,
-				071B82821EB006D200C8FBB1 /* TableViewController.swift in Sources */,
+				071B828C1EB2558900C8FBB1 /* CustomCell.swift in Sources */,
 				071B82701EAE8CAC00C8FBB1 /* adminLoginViewController.swift in Sources */,
 				071B823E1EAD7FDD00C8FBB1 /* ViewController.swift in Sources */,
 				071B823C1EAD7FDD00C8FBB1 /* AppDelegate.swift in Sources */,
