@@ -16,6 +16,12 @@ class register: UIViewController {
     var registeredUsers = [String]()
     var passwordArr = [String]()
     
+    
+    
+    
+    
+    
+    
     //Alert Messages
     func alertMessage(userMessage:String){
         

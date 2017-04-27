@@ -20,15 +20,29 @@ class adminLoginViewController: UIViewController {
         //let admin = "Serrano";
         //let adminP = "956747";
         
-        if AdminName.text == "Serrano"
+        if AdminName.text == "Serrano" && AdminPassword.text == "956747"
         {
-            if AdminPassword.text == "956747"
-            {
+            //if AdminPassword.text == "956747"
+            //{
                 performSegue(withIdentifier:"adminPage", sender: self)
-            }
+            //}
+        }
+        else{
+            resetField();
+            let incorrectAlert = UIAlertController(title: "Error", message: "your user name or password is incorrect.", preferredStyle: .alert)
+            incorrectAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(incorrectAlert, animated: true, completion: nil)
         }
         
+        
     }
+    
+    
+    func resetField(){
+        AdminName.text = ""
+        AdminPassword.text = ""
+    }
+    
     
     
     override func viewDidLoad() {

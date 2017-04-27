@@ -55,6 +55,15 @@ class NewTableViewController: UIViewController, UITableViewDelegate, UITableView
     
     }
     
+    public func tableView(_tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){
+        if(editingStyle == UITableViewCellEditingStyle.delete){
+            
+            values.remove(at: indexPath.row)
+            tableView.reloadData()
+            //tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
     
 
 
@@ -137,6 +146,7 @@ class NewTableViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     @IBAction func logout(_ sender: Any) {
+    dismiss(animated: true, completion: nil)
     }
 
     /*
