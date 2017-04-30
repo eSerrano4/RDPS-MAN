@@ -10,10 +10,14 @@ import UIKit
 
 class CustomCell: UITableViewCell {
 
-    @IBOutlet var name: UILabel!
+    //@IBOutlet var name: UILabel!
     //@IBOutlet var ticketRequest: UILabel!
-    @IBOutlet var roomNumber: UILabel!
+    //@IBOutlet var roomNumber: UILabel!
+    //@IBOutlet var ticketRequest: UITextView!
+    
     @IBOutlet var ticketRequest: UITextView!
+    @IBOutlet var roomNumber: UILabel!
+    @IBOutlet var name: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

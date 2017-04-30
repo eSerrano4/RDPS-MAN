@@ -9,8 +9,9 @@ import Foundation
 import UIKit
 
 class NewTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
-    @IBOutlet var tableView: UITableView!
+    //@IBOutlet var tableView: UITableView!
     
+    @IBOutlet var tableView: UITableView!
     //@IBOutlet var LabelA: UILabel!
     //@IBOutlet var LabelB: UILabel!
     

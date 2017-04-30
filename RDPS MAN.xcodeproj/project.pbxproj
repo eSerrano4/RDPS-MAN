@@ -25,6 +25,7 @@
 		071B827C1EAFC4E300C8FBB1 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B827B1EAFC4E300C8FBB1 /* ContainerViewController.swift */; };
 		071B82861EB18ED000C8FBB1 /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B82851EB18ED000C8FBB1 /* NewTableViewController.swift */; };
 		071B828C1EB2558900C8FBB1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B828B1EB2558900C8FBB1 /* CustomCell.swift */; };
+		071B828E1EB5C83200C8FBB1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B828D1EB5C83200C8FBB1 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		071B827B1EAFC4E300C8FBB1 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		071B82851EB18ED000C8FBB1 /* NewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
 		071B828B1EB2558900C8FBB1 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		071B828D1EB5C83200C8FBB1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				071B827B1EAFC4E300C8FBB1 /* ContainerViewController.swift */,
 				071B82851EB18ED000C8FBB1 /* NewTableViewController.swift */,
 				071B828B1EB2558900C8FBB1 /* CustomCell.swift */,
+				071B828D1EB5C83200C8FBB1 /* TableViewCell.swift */,
 			);
 			path = "RDPS MAN";
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				071B826C1EAE56CE00C8FBB1 /* LoginViewController.swift in Sources */,
 				071B827C1EAFC4E300C8FBB1 /* ContainerViewController.swift in Sources */,
 				071B828C1EB2558900C8FBB1 /* CustomCell.swift in Sources */,
+				071B828E1EB5C83200C8FBB1 /* TableViewCell.swift in Sources */,
 				071B82701EAE8CAC00C8FBB1 /* adminLoginViewController.swift in Sources */,
 				071B823E1EAD7FDD00C8FBB1 /* ViewController.swift in Sources */,
 				071B823C1EAD7FDD00C8FBB1 /* AppDelegate.swift in Sources */,
