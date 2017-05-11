@@ -17,6 +17,27 @@ class adminLoginViewController: UIViewController {
 
     @IBAction func LoginButtonClicked(_ sender: Any) {
         
+        //performSegue(withIdentifier: "loggedIn", sender: self)
+        
+        /*let userEmail = userEmailTextField.text;
+         let userPassword = userPasswordTextField.text;
+         
+         let userEmailStored = UserDefaults.standard.string(forKey: "userEmail")
+         let userPasswordStored = UserDefaults.standard.string(forKey: "userPassword");
+         
+         
+         if(userEmailStored == userEmail)
+         {
+         if(userPasswordStored == userPassword)
+         {
+         //UserDefaults.standard.set(true, forKey: "isUserLoggedIn")
+         //UserDefaults.standard.synchronize();
+         
+         //self.dismiss(animated: true,completion:nil);
+         performSegue(withIdentifier:"loggedIn", sender: self)
+         
+         }
+         }*/
         //let admin = "Serrano";
         //let adminP = "956747";
         

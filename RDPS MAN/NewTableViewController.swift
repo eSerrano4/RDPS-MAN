@@ -26,7 +26,11 @@ class NewTableViewController: UIViewController, UITableViewDelegate, UITableView
     
     
     
+    public func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool{
+        return true
+    }
     
+
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
@@ -39,7 +43,7 @@ class NewTableViewController: UIViewController, UITableViewDelegate, UITableView
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
      
-        var cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomCell
         
         cell.name.text = values[indexPath.row]
         cell.ticketRequest.text = issues[indexPath.row]
@@ -56,11 +60,14 @@ class NewTableViewController: UIViewController, UITableViewDelegate, UITableView
     
     }
     
-    public func tableView(_tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){
-        if(editingStyle == UITableViewCellEditingStyle.delete){
+    public func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){
+        if(editingStyle == .delete){
+            
             
             values.remove(at: indexPath.row)
-            tableView.reloadData()
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            //tableView.reloadData()
             //tableView.deleteRows(at: [indexPath], with: .automatic)
         }
     }
@@ -112,6 +119,9 @@ class NewTableViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.leftBarButtonItem = editButtonItem
+        
         get()
         tableView.dataSource = self
         tableView.delegate = self
