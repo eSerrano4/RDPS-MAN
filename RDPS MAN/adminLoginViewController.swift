@@ -38,10 +38,9 @@ class adminLoginViewController: UIViewController {
          
          }
          }*/
-        //let admin = "Serrano";
-        //let adminP = "956747";
+
         
-        if AdminName.text == "Serrano" && AdminPassword.text == "956747"
+        if AdminName.text == "User" && AdminPassword.text == "User"
         {
             //if AdminPassword.text == "956747"
             //{
